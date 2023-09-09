@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6B74D012AAC5E4200157277 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B74D002AAC5E4200157277 /* AppDelegate.m */; };
+		F6B74D042AAC5E4200157277 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B74D032AAC5E4200157277 /* SceneDelegate.m */; };
+		F6B74D072AAC5E4200157277 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B74D062AAC5E4200157277 /* ViewController.m */; };
+		F6B74D0A2AAC5E4200157277 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B74D082AAC5E4200157277 /* Main.storyboard */; };
+		F6B74D0C2AAC5E4700157277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6B74D0B2AAC5E4700157277 /* Assets.xcassets */; };
+		F6B74D0F2AAC5E4700157277 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B74D0D2AAC5E4700157277 /* LaunchScreen.storyboard */; };
+		F6B74D122AAC5E4700157277 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B74D112AAC5E4700157277 /* main.m */; };
+		F6B74D1C2AAC5E4700157277 /* iOS_Flutter_MixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B74D1B2AAC5E4700157277 /* iOS_Flutter_MixTests.m */; };
+		F6B74D262AAC5E4700157277 /* iOS_Flutter_MixUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B74D252AAC5E4700157277 /* iOS_Flutter_MixUITests.m */; };
+		F6B74D282AAC5E4700157277 /* iOS_Flutter_MixUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B74D272AAC5E4700157277 /* iOS_Flutter_MixUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6B74D182AAC5E4700157277 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6B74CF42AAC5E4200157277 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6B74CFB2AAC5E4200157277;
+			remoteInfo = iOS_Flutter_Mix;
+		};
+		F6B74D222AAC5E4700157277 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6B74CF42AAC5E4200157277 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6B74CFB2AAC5E4200157277;
+			remoteInfo = iOS_Flutter_Mix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6B74CFC2AAC5E4200157277 /* iOS_Flutter_Mix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Flutter_Mix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6B74CFF2AAC5E4200157277 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6B74D002AAC5E4200157277 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F6B74D022AAC5E4200157277 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F6B74D032AAC5E4200157277 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F6B74D052AAC5E4200157277 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F6B74D062AAC5E4200157277 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F6B74D092AAC5E4200157277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6B74D0B2AAC5E4700157277 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6B74D0E2AAC5E4700157277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6B74D102AAC5E4700157277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6B74D112AAC5E4700157277 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6B74D172AAC5E4700157277 /* iOS_Flutter_MixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_Flutter_MixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6B74D1B2AAC5E4700157277 /* iOS_Flutter_MixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Flutter_MixTests.m; sourceTree = "<group>"; };
+		F6B74D212AAC5E4700157277 /* iOS_Flutter_MixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_Flutter_MixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6B74D252AAC5E4700157277 /* iOS_Flutter_MixUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Flutter_MixUITests.m; sourceTree = "<group>"; };
+		F6B74D272AAC5E4700157277 /* iOS_Flutter_MixUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Flutter_MixUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6B74CF92AAC5E4200157277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6B74D142AAC5E4700157277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6B74D1E2AAC5E4700157277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6B74CF32AAC5E4200157277 = {
+			isa = PBXGroup;
+			children = (
+				F6B74CFE2AAC5E4200157277 /* iOS_Flutter_Mix */,
+				F6B74D1A2AAC5E4700157277 /* iOS_Flutter_MixTests */,
+				F6B74D242AAC5E4700157277 /* iOS_Flutter_MixUITests */,
+				F6B74CFD2AAC5E4200157277 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6B74CFD2AAC5E4200157277 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6B74CFC2AAC5E4200157277 /* iOS_Flutter_Mix.app */,
+				F6B74D172AAC5E4700157277 /* iOS_Flutter_MixTests.xctest */,
+				F6B74D212AAC5E4700157277 /* iOS_Flutter_MixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6B74CFE2AAC5E4200157277 /* iOS_Flutter_Mix */ = {
+			isa = PBXGroup;
+			children = (
+				F6B74CFF2AAC5E4200157277 /* AppDelegate.h */,
+				F6B74D002AAC5E4200157277 /* AppDelegate.m */,
+				F6B74D022AAC5E4200157277 /* SceneDelegate.h */,
+				F6B74D032AAC5E4200157277 /* SceneDelegate.m */,
+				F6B74D052AAC5E4200157277 /* ViewController.h */,
+				F6B74D062AAC5E4200157277 /* ViewController.m */,
+				F6B74D082AAC5E4200157277 /* Main.storyboard */,
+				F6B74D0B2AAC5E4700157277 /* Assets.xcassets */,
+				F6B74D0D2AAC5E4700157277 /* LaunchScreen.storyboard */,
+				F6B74D102AAC5E4700157277 /* Info.plist */,
+				F6B74D112AAC5E4700157277 /* main.m */,
+			);
+			path = iOS_Flutter_Mix;
+			sourceTree = "<group>";
+		};
+		F6B74D1A2AAC5E4700157277 /* iOS_Flutter_MixTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6B74D1B2AAC5E4700157277 /* iOS_Flutter_MixTests.m */,
+			);
+			path = iOS_Flutter_MixTests;
+			sourceTree = "<group>";
+		};
+		F6B74D242AAC5E4700157277 /* iOS_Flutter_MixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6B74D252AAC5E4700157277 /* iOS_Flutter_MixUITests.m */,
+				F6B74D272AAC5E4700157277 /* iOS_Flutter_MixUITestsLaunchTests.m */,
+			);
+			path = iOS_Flutter_MixUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6B74CFB2AAC5E4200157277 /* iOS_Flutter_Mix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6B74D2B2AAC5E4700157277 /* Build configuration list for PBXNativeTarget "iOS_Flutter_Mix" */;
+			buildPhases = (
+				F6B74CF82AAC5E4200157277 /* Sources */,
+				F6B74CF92AAC5E4200157277 /* Frameworks */,
+				F6B74CFA2AAC5E4200157277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS_Flutter_Mix;
+			productName = iOS_Flutter_Mix;
+			productReference = F6B74CFC2AAC5E4200157277 /* iOS_Flutter_Mix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6B74D162AAC5E4700157277 /* iOS_Flutter_MixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6B74D2E2AAC5E4700157277 /* Build configuration list for PBXNativeTarget "iOS_Flutter_MixTests" */;
+			buildPhases = (
+				F6B74D132AAC5E4700157277 /* Sources */,
+				F6B74D142AAC5E4700157277 /* Frameworks */,
+				F6B74D152AAC5E4700157277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6B74D192AAC5E4700157277 /* PBXTargetDependency */,
+			);
+			name = iOS_Flutter_MixTests;
+			productName = iOS_Flutter_MixTests;
+			productReference = F6B74D172AAC5E4700157277 /* iOS_Flutter_MixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6B74D202AAC5E4700157277 /* iOS_Flutter_MixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6B74D312AAC5E4700157277 /* Build configuration list for PBXNativeTarget "iOS_Flutter_MixUITests" */;
+			buildPhases = (
+				F6B74D1D2AAC5E4700157277 /* Sources */,
+				F6B74D1E2AAC5E4700157277 /* Frameworks */,
+				F6B74D1F2AAC5E4700157277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6B74D232AAC5E4700157277 /* PBXTargetDependency */,
+			);
+			name = iOS_Flutter_MixUITests;
+			productName = iOS_Flutter_MixUITests;
+			productReference = F6B74D212AAC5E4700157277 /* iOS_Flutter_MixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6B74CF42AAC5E4200157277 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					F6B74CFB2AAC5E4200157277 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					F6B74D162AAC5E4700157277 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = F6B74CFB2AAC5E4200157277;
+					};
+					F6B74D202AAC5E4700157277 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = F6B74CFB2AAC5E4200157277;
+					};
+				};
+			};
+			buildConfigurationList = F6B74CF72AAC5E4200157277 /* Build configuration list for PBXProject "iOS_Flutter_Mix" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6B74CF32AAC5E4200157277;
+			productRefGroup = F6B74CFD2AAC5E4200157277 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6B74CFB2AAC5E4200157277 /* iOS_Flutter_Mix */,
+				F6B74D162AAC5E4700157277 /* iOS_Flutter_MixTests */,
+				F6B74D202AAC5E4700157277 /* iOS_Flutter_MixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6B74CFA2AAC5E4200157277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B74D0F2AAC5E4700157277 /* LaunchScreen.storyboard in Resources */,
+				F6B74D0C2AAC5E4700157277 /* Assets.xcassets in Resources */,
+				F6B74D0A2AAC5E4200157277 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6B74D152AAC5E4700157277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6B74D1F2AAC5E4700157277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6B74CF82AAC5E4200157277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B74D072AAC5E4200157277 /* ViewController.m in Sources */,
+				F6B74D012AAC5E4200157277 /* AppDelegate.m in Sources */,
+				F6B74D122AAC5E4700157277 /* main.m in Sources */,
+				F6B74D042AAC5E4200157277 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6B74D132AAC5E4700157277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B74D1C2AAC5E4700157277 /* iOS_Flutter_MixTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6B74D1D2AAC5E4700157277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B74D282AAC5E4700157277 /* iOS_Flutter_MixUITestsLaunchTests.m in Sources */,
+				F6B74D262AAC5E4700157277 /* iOS_Flutter_MixUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6B74D192AAC5E4700157277 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6B74CFB2AAC5E4200157277 /* iOS_Flutter_Mix */;
+			targetProxy = F6B74D182AAC5E4700157277 /* PBXContainerItemProxy */;
+		};
+		F6B74D232AAC5E4700157277 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6B74CFB2AAC5E4200157277 /* iOS_Flutter_Mix */;
+			targetProxy = F6B74D222AAC5E4700157277 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6B74D082AAC5E4200157277 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6B74D092AAC5E4200157277 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6B74D0D2AAC5E4700157277 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6B74D0E2AAC5E4700157277 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6B74D292AAC5E4700157277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F6B74D2A2AAC5E4700157277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6B74D2C2AAC5E4700157277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G22G5PH7ZY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOS_Flutter_Mix/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LHKH.iOS-Flutter-Mix";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6B74D2D2AAC5E4700157277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G22G5PH7ZY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOS_Flutter_Mix/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LHKH.iOS-Flutter-Mix";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F6B74D2F2AAC5E4700157277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G22G5PH7ZY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LHKH.iOS-Flutter-MixTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS_Flutter_Mix.app/iOS_Flutter_Mix";
+			};
+			name = Debug;
+		};
+		F6B74D302AAC5E4700157277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G22G5PH7ZY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LHKH.iOS-Flutter-MixTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS_Flutter_Mix.app/iOS_Flutter_Mix";
+			};
+			name = Release;
+		};
+		F6B74D322AAC5E4700157277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G22G5PH7ZY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LHKH.iOS-Flutter-MixUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOS_Flutter_Mix;
+			};
+			name = Debug;
+		};
+		F6B74D332AAC5E4700157277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G22G5PH7ZY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LHKH.iOS-Flutter-MixUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOS_Flutter_Mix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6B74CF72AAC5E4200157277 /* Build configuration list for PBXProject "iOS_Flutter_Mix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6B74D292AAC5E4700157277 /* Debug */,
+				F6B74D2A2AAC5E4700157277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6B74D2B2AAC5E4700157277 /* Build configuration list for PBXNativeTarget "iOS_Flutter_Mix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6B74D2C2AAC5E4700157277 /* Debug */,
+				F6B74D2D2AAC5E4700157277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6B74D2E2AAC5E4700157277 /* Build configuration list for PBXNativeTarget "iOS_Flutter_MixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6B74D2F2AAC5E4700157277 /* Debug */,
+				F6B74D302AAC5E4700157277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6B74D312AAC5E4700157277 /* Build configuration list for PBXNativeTarget "iOS_Flutter_MixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6B74D322AAC5E4700157277 /* Debug */,
+				F6B74D332AAC5E4700157277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6B74CF42AAC5E4200157277 /* Project object */;
+}
